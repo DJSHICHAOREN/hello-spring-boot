@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: dev
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/dbdemo
+    username: root
+    password: LV1WU2DA3ms
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+logging:
+  level:
+    learning: debug
+  file:
+    path: log/app-user.log
