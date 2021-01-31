@@ -975,3 +975,66 @@ com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long
 2021-01-30 16:25:44.899  INFO 43804 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2021-01-30 16:25:44.902  INFO 43804 --- [SpringContextShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
 2021-01-30 16:25:44.912  INFO 43804 --- [SpringContextShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2021-01-31 17:11:41.278  INFO 50259 --- [main] c.e.d.DemoApplicationTests               : Starting DemoApplicationTests using Java 1.8.0_231 on ZBMAC-32e28bb9b with PID 50259 (started by lvwuda in /Users/lvwuda/Documents/java_projects/hello-spring-boot)
+2021-01-31 17:11:41.292  INFO 50259 --- [main] c.e.d.DemoApplicationTests               : The following profiles are active: dev
+2021-01-31 17:11:42.051  INFO 50259 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-31 17:11:42.114  INFO 50259 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interfaces.
+2021-01-31 17:11:42.842  INFO 50259 --- [main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-31 17:11:42.930  INFO 50259 --- [main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-31 17:11:43.167  INFO 50259 --- [main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-31 17:11:43.328  INFO 50259 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-01-31 17:11:43.334  WARN 50259 --- [main] c.z.h.u.DriverDataSource                 : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-01-31 17:11:43.888  INFO 50259 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-01-31 17:11:43.950  INFO 50259 --- [main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-01-31 17:11:44.900  INFO 50259 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-31 17:11:44.913  INFO 50259 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-31 17:11:45.767  WARN 50259 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-31 17:11:46.005  INFO 50259 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-31 17:11:46.163  INFO 50259 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-01-31 17:11:46.510  INFO 50259 --- [main] c.e.d.DemoApplicationTests               : Started DemoApplicationTests in 5.67 seconds (JVM running for 7.211)
+2021-01-31 17:11:46.663  INFO 50259 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-31 17:11:46.664  INFO 50259 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-31 17:11:46.667  INFO 50259 --- [SpringContextShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2021-01-31 17:11:46.678  INFO 50259 --- [SpringContextShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2021-01-31 17:22:16.215  INFO 52909 --- [main] c.e.d.DemoApplicationTests               : Starting DemoApplicationTests using Java 1.8.0_231 on ZBMAC-32e28bb9b with PID 52909 (started by lvwuda in /Users/lvwuda/Documents/java_projects/hello-spring-boot)
+2021-01-31 17:22:16.228  INFO 52909 --- [main] c.e.d.DemoApplicationTests               : The following profiles are active: dev
+2021-01-31 17:22:16.947  INFO 52909 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-31 17:22:17.003  INFO 52909 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+2021-01-31 17:22:17.689  INFO 52909 --- [main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-31 17:22:17.787  INFO 52909 --- [main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-31 17:22:18.026  INFO 52909 --- [main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-31 17:22:18.190  INFO 52909 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-01-31 17:22:18.195  WARN 52909 --- [main] c.z.h.u.DriverDataSource                 : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-01-31 17:22:18.672  INFO 52909 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-01-31 17:22:18.727  INFO 52909 --- [main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-01-31 17:22:19.668  INFO 52909 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-31 17:22:19.680  INFO 52909 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-31 17:22:20.517  WARN 52909 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-31 17:22:20.748  INFO 52909 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-31 17:22:20.887  INFO 52909 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-01-31 17:22:21.229  INFO 52909 --- [main] c.e.d.DemoApplicationTests               : Started DemoApplicationTests in 5.45 seconds (JVM running for 6.865)
+2021-01-31 17:22:21.363  INFO 52909 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-31 17:22:21.364  INFO 52909 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-31 17:22:21.368  INFO 52909 --- [SpringContextShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2021-01-31 17:22:21.378  INFO 52909 --- [SpringContextShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2021-01-31 17:28:02.407  INFO 54251 --- [main] c.e.d.DemoApplicationTests               : Starting DemoApplicationTests using Java 1.8.0_231 on ZBMAC-32e28bb9b with PID 54251 (started by lvwuda in /Users/lvwuda/Documents/java_projects/hello-spring-boot)
+2021-01-31 17:28:02.419  INFO 54251 --- [main] c.e.d.DemoApplicationTests               : The following profiles are active: dev
+2021-01-31 17:28:03.048  INFO 54251 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-31 17:28:03.107  INFO 54251 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+2021-01-31 17:28:03.799  INFO 54251 --- [main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-31 17:28:03.865  INFO 54251 --- [main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-31 17:28:04.014  INFO 54251 --- [main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-31 17:28:04.135  INFO 54251 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-01-31 17:28:04.139  WARN 54251 --- [main] c.z.h.u.DriverDataSource                 : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-01-31 17:28:04.614  INFO 54251 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-01-31 17:28:04.660  INFO 54251 --- [main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-01-31 17:28:05.345  INFO 54251 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-31 17:28:05.354  INFO 54251 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-31 17:28:06.264  WARN 54251 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-31 17:28:06.584  INFO 54251 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-31 17:28:06.724  INFO 54251 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-01-31 17:28:07.119  INFO 54251 --- [main] c.e.d.DemoApplicationTests               : Started DemoApplicationTests in 5.099 seconds (JVM running for 6.251)
+2021-01-31 17:28:07.262  INFO 54251 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-31 17:28:07.263  INFO 54251 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-31 17:28:07.266  INFO 54251 --- [SpringContextShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2021-01-31 17:28:07.272  INFO 54251 --- [SpringContextShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
